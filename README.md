@@ -17,6 +17,8 @@
 14. Create a release branch named v1.0.1: `$ git flow release start v1.0.1`
 15. Publish the release branch so that it can be deployed to QA environment from origin (GitHub): `$ git flow release publish`
 16. Following QA approval, when ready to merge the release into master (production), finish the release: `$ git flow release finish`
+17. Push branch changes to origin: `$ git push --all`
+18. Push tags changes to origin: `$ git push --tags`
 
 Note: There are similar commands to work in 'hotfix' or 'bugfix' branching.
 
